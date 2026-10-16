@@ -6,3 +6,22 @@ requires-python = ">=3.14"
 name = "conferencia-semanal"
 version = "0.1.0"
 source = { editable = "." }
+
+[package.dev-dependencies]
+dev = [
+    { name = "ignr" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ignr", specifier = ">=2.3" }]
+
+[[package]]
+name = "ignr"
+version = "2.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d6/be/e53796931283406d5a27db4541c42fd5bd56a943158f42e67057a9f451a2/ignr-2.3.tar.gz", hash = "sha256:5e72297d697b6f466574b5d6369290781e893ba6f6af3e0cb5c4764c865eead6", size = 4255, upload-time = "2026-03-24T00:11:38.612Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4f/55/034450c8972dc79616cec031471d8bc18b9253ecdc703022e0af712a583f/ignr-2.3-py3-none-any.whl", hash = "sha256:cd23637cf389ffe08290d9e815271ec752381747b1d95626ba10aa72ba16385d", size = 4400, upload-time = "2026-03-24T00:11:37.543Z" },
+]
