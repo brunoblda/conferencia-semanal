@@ -40,6 +40,7 @@ test = "pytest"
 coverage = "pytest --cov=src --cov-report=term-missing --cov-report=html"
 commit = "cz commit"
 bump = "cz bump"
+pre-commit = "task format && task fix && task lint_deep"
 
 # ==========================================
 # COMMITIZEN — Gerenciamento de versões e changelog
